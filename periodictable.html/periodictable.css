@@ -1,0 +1,290 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap ;
+    
+}
+.header{
+    display: grid;
+    grid-template-columns:3fr 1fr;
+    padding-bottom: 1rem;
+}
+
+.footer{
+    
+    color: red;
+    padding-top: 1rem;
+    text-align: center;
+    
+}
+.headline{
+    text-align:center;
+    color:blue;
+    
+} 
+.unknown{  
+    background-color: rgba(0, 0, 0);
+     color:darkgrey;
+}
+
+.states{ 
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   
+
+}
+.state{
+     background-color: black;
+    padding: 2px;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 3px;
+}
+.series{ 
+    display: grid;
+    grid-template-columns:repeat(9,1fr);
+    padding: 2px;
+    margin-bottom: 5px;
+    margin-right:5px ;
+
+    
+   
+}
+.e_config{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+span{
+    display: none;
+    font-size: 1.1rem;
+    
+    color: white;
+   }
+.grps{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5px;
+    
+}
+.grp{    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border: 2px solid red;
+    padding:2px;
+    margin: 1px;
+    text-align: center;
+}
+.periodictable{
+    display: grid;
+    height: 60vh;
+    width: 40vw;
+    
+
+    
+}
+.uppertable{
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+    margin-right:0.5rem ;
+    align-items: end;
+    
+} 
+.lowertable{
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+    margin-top: 3rem;
+
+
+
+}
+
+.element{
+
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+    font-size: 13px;
+    
+}
+.elements{ 
+    color: white;
+    border: 2px solid black;
+    border-radius: 1rem;
+    text-align: center;
+    padding:5px;
+    margin: 2px;
+    font-size:13px;
+}
+
+.grp1,.grp18{ 
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 8;
+} 
+.grp2,.grp13,.grp14,
+.grp15,.grp16,.grp17{
+    display: grid;
+    grid-row-start: 2;
+    grid-row-end: 8;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+} 
+.grp3,.grp4,.grp5,.grp6,.grp6,.grp7,.grp8
+,.grp9,.grp10,.grp11,.grp12{ display: grid;
+    grid-row-start: 4;
+    grid-row-end: 8;
+    
+    
+}
+.grp3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.grp4{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.grp5{
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.grp6{
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+
+.grp7{
+    grid-column-start: 7;
+    grid-column-end: 8;
+}
+
+.grp8{
+    grid-column-start: 8;
+    grid-column-end: 9;
+}
+.grp9{
+    grid-column-start: 9;
+    grid-column-end: 10;
+}
+
+.grp10{
+    grid-column-start: 10;
+    grid-column-end: 11;
+}
+
+.grp11{
+    grid-column-start: 11;
+    grid-column-end: 12;
+}
+.grp12{
+    grid-column-start: 12;
+    grid-column-end: 13;
+}
+.grp13{
+    grid-column-start: 13;
+    grid-column-end: 14;
+}
+.grp14{
+    grid-column-start: 14;
+    grid-column-end: 15;
+}
+.grp15{
+    grid-column-start: 15;
+    grid-column-end: 16;
+}
+.grp16{
+    grid-column-start: 16;
+    grid-column-end: 17;
+}
+.grp17{
+    grid-column-start: 17;
+    grid-column-end: 18;
+}
+.grp18{
+    grid-column-start: 18;
+    grid-column-end: 19;
+} 
+
+
+.lanthanoid{
+    display: grid;
+    grid-row-start:1 ;
+    grid-row-end: 2;
+    background-color:magenta;
+    
+}
+.actinoid{
+    display: grid;
+    grid-row-start:2 ;
+    grid-row-end: 3;
+    background-color:darkorchid;
+    
+    
+}
+.gas{
+    
+    color:yellow;
+}
+.solid{
+    
+    color:white;
+} 
+
+.liquid{
+    
+    color: rgb(35, 228, 241);
+} 
+.alkali_metals{
+    background-color: brown;
+} 
+.alkaline_earthmetals{
+    background-color: rgb(163, 98, 98);
+} 
+.Transition_metals{
+    background-color:darkmagenta;
+} 
+.reactive_nonmetals{
+    background-color: green;
+}
+.post_transitionmetals{
+    background-color: red;
+} 
+.metalloids{
+    background-color:blue;
+} 
+.noble_gases{
+    background-color: darkcyan;
+} .lanthanoids{
+    background-color: magenta;
+}
+.actinoids{
+    grid-row-start:1;
+    grid-row-end: 2;
+    grid-column-start:9 ;
+    grid-column-end: 10;
+    background-color: darkorchid;
+
+}
+
+.e_configs{
+    display: block;
+}
+.changestyle{
+    color: white;
+    background-color: grey;
+}
+
+
+
+
